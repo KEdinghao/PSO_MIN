@@ -79,7 +79,7 @@ for t = 1:M % 管理迭代次数
 %             plot(gbest,fitness(gbest),'ro');
              plot3(gbest(1),gbest(2),fitness(gbest),'ro');
             hold on
-            pause(0.5) %每个0.5s画个点方便观察实际效果
+            pause(0.5) %每隔0.5s画个点方便观察实际效果
         end
     end
     if count >10 
